@@ -5,11 +5,11 @@
 body {
   color: #878787;
   margin: 0;
-  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font: 1em/1.5 "Helvetica-Neue", Helvetica, Arial, sans-serif; }
 
 h1,
 h2 {
-  font-family: 'Abolition Regular', Helvetica, Arial, sans-serif; }
+  font-family: "Abolition Regular", Helvetica, Arial, sans-serif; }
 
 h1 {
   font-size: 5.625rem;
@@ -53,13 +53,10 @@ li {
 a:link {
   color: #ffa949;
   text-decoration: none; }
-
 a:visited {
-  color: lightblue; }
-
+  color: #add8e6; }
 a:hover {
   color: rgba(255, 169, 73, 0.4); }
-
 a:active {
   color: lightcoral; }
 
@@ -104,7 +101,7 @@ a:active {
   text-align: center; }
 
 .primary-content, .secondary-content {
-  border-top: 2px solid #dfe2e6; }
+  border-top: 2px solid #e0e0e0; }
 
 .primary-content, .secondary-content {
   width: 75%;
@@ -127,7 +124,7 @@ a:active {
   src: url("../fonts/abolition-regular-webfont.eot");
   src: url("../fonts/abolition-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/abolition-regular-webfont.woff") format("woff"), url("../fonts/abolition-regular-webfont.ttf") format("truetype"); }
 .title {
-  color: white;
+  color: #fff;
   font-size: 1.625rem;
   /* 26px/16px */
   letter-spacing: .065em;
